@@ -20,7 +20,7 @@ export interface GeneratedImage {
   data: string;
 }
 
-const AI_API_URL = 'http://localhost:3001/api/ai';
+const AI_API_URL = 'https://mathichatbot-ai.onrender.com/api/ai';
 const IMAGE_API_URL = 'http://localhost:3001/api/images/generate';
 const IMAGE_MESSAGE_PREFIX = 'MATHI_IMAGE_V1:';
 
