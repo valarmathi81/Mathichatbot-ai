@@ -21,7 +21,7 @@ export interface GeneratedImage {
 }
 
 const AI_API_URL = 'https://mathichatbot-ai.onrender.com/api/ai';
-const IMAGE_API_URL = 'http://localhost:3001/api/images/generate';
+const IMAGE_API_URL = 'https://mathichatbot-ai.onrender.com/api/images/generate';
 const IMAGE_MESSAGE_PREFIX = 'MATHI_IMAGE_V1:';
 
 export function encodeGeneratedImage(image: GeneratedImage): string {
